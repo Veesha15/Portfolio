@@ -1,0 +1,26 @@
+Barrel Blocker README
+My first unity project | Jun 2021
+3D survival game | Built in Unity for PC
+Used assets from Create with Code course
+
+The player needs to pick up and carry barrels to a designated area within a time limit. 
+After the timer runs out, all barrels not in the designated area are destroyed. 
+The player then needs to hide behind the remaining barrels to be shielded from the advancing chickens. 
+Chickens are removed when they touch a barrel. 
+The game ends if a chicken touches the player. 
+
+Known Bugs
+- The balloon indicator sometimes stays even when the player moves out of range
+- Sometimes the barrels explode despite being in the designated area
+
+To Improve on
+- Timer is too short
+- Needs more barrels and more chickens
+- Difficulty needs to progress better
+- Barrels can spawn on top of one another
+- Movement animation feels clunky
+- Instead of balloon indicator, show which input key to use
+
+Features to add
+- Barrels snap into position be put down on designated area
+- Designated area increases when say, three barrels are place next to each other
