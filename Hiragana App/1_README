@@ -1,2 +1,6 @@
-To test, download and unzip "Hiragana Desktop App" folder.
+Hiragana App README
+My first independent coding project | Apr 2021
+Simple desktop app for my personal use to practise writing Japanese Hiragana characters. | Built using Python and Tkinter
+
+To test the, download and unzip "Hiragana Desktop App" folder.
 Open the "Hiragana exe" folder and double click the "Hiragana Drills" Application file.
