@@ -1,1 +1,48 @@
+Doti Memory README
+My first shipped game | Nov 2021
+2D picture matching card game | Built in Unity for Android
 
+Entire project built using UI elements
+Only one scene using two display screens, home screen and game screen
+
+Home Screen Functionality
+*The app opens with the home screen
+Quit button - closes app
+Settings button - opens settings popup window
+Theme buttons - opens game window
+Active theme buttons
+- On becoming active images update and button becomes interactable 
+- Opens game window in default mode
+- Contains radial bar and text field that indicate player progress
+- If theme has life indicator, adds extra life
+Completed theme buttons
+- On becoming completed images update
+- Opens game window in endless mode
+Locked theme buttons
+- Not interactable
+
+Game Screen Functionality
+*Selecting a theme on the home screen opens the game screen
+UI
+- How many new cards the player has unlocked
+- How many lives the player has for the currently round
+- Additional information to guide the player
+- Settings button that opens settings popup window
+- Home botton that opens home screen
+Card Deck
+- Card size changes with deck size
+- Cards are turned face up when selected
+- Only 2 interactable cards can be face up at a time
+- When two cards are face up, check if they match or not
+- Matched cards remain face up and become non-interactable 
+- Not matched cards are turned face down and change colour
+- Turning cards face up for a second time without a match uses a life or ends the round
+- On losing a round, popup window | On continue, a new deck is dealt, and lives are reset
+- On winning a round, popup window | On continue, new card is unlocked and added to the deck
+- On completing theme, popup window | On continue, opens home screen, previous theme completed, new theme unlocked
+
+Settings Window Functionality
+*Selected from both home and game screens
+Toggle music on or off
+Toggle sound on or off
+Follow link to website
